@@ -12,25 +12,35 @@
 
 strong
 {
-	font-family:cwTeXHei;
+font-family:cwTeXHei;
 }
 
 li
 {
-	font-family:cwTeXHei; font-size:14px;
+font-family:cwTeXHei; font-size:14px;
 }
 
 p
 {
-	font-family:cwTeXHei; font-size:14px; color:#4C4B45;
+font-family:cwTeXHei; font-size:14px; color:#4C4B45;
 }
 
-p.text1
+span
 {
-	font-family:cwTeXHei; font-size:16px;
+font-family:cwTeXHei;
 }
 
-p.text2
+td
 {
-	font-family:cwTeXHei; font-size:12px;
+font-family:cwTeXHei; text-align:center; padding:10px;
+}
+
+#tdb1
+{
+font-size:120%; color:#6e5858; background-color:#f5f5f5; padding:10px;
+}
+
+#tdb2
+{
+color:#6e5858; padding:10px;
 }
