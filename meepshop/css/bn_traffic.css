@@ -10,4 +10,9 @@
  url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
 }
 
-* {font-family: 'cwTeXHei';}
+* {
+font-family: "cwTeXHei"; "Open Sans", "Heiti TC", "LiHei Pro", "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
+font-size: 15px;
+line-height: 1.428571429;
+color: #585858;
+}
