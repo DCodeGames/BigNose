@@ -7,10 +7,6 @@ ul { /* 取消ul預設的內縮及樣式 */
 	list-style: none;
 }
 
-a{
-	font-family: 'cwTeXHei', Arial, sans-serif;
-}
-
 ul.menu { /* 取消ul預設的內縮及樣式 */
 width:100%;
 height:auto;
@@ -47,6 +43,7 @@ ul.menu li {
 }
 
 ul.menu a {
+	font-family: 'cwTeXHei', Arial, sans-serif;
 	background-color: #6f6f6f;
 	color: #fff;
 	display: block;
