@@ -6,11 +6,6 @@ ul { /* 取消ul預設的內縮及樣式 */
 	list-style: none;
 }
 
-a{
-	font-family: 'cwTeXHei', Arial, sans-serif;
-	font-size:14;
-}
-
 ul.menu { /* 取消ul預設的內縮及樣式 */
 	width:100%;
 	height:auto;
@@ -46,6 +41,7 @@ ul.menu li {
 }
 
 ul.menu a {
+	font-family: 'cwTeXHei', Arial, sans-serif;
 	background-color: #6f6f6f;
 	color: #fff;
 	display: block;
@@ -62,6 +58,7 @@ ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
 }
 
 ul.menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+	font-family: 'cwTeXHei', Arial, sans-serif;
 	display: block;
 	background-color: #fff;
 	color: #6f6f6f;
