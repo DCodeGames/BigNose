@@ -6,27 +6,22 @@ ul { /* 取消ul預設的內縮及樣式 */
 	list-style: none;
 }
 
-a{
-	font-family: 'cwTeXHei', Arial, sans-serif;
-}
-
 ul.menu { /* 取消ul預設的內縮及樣式 */
-width:100%;
-height:auto;
-text-align: center;
-display: flex;
-flex: 1 1 300px;
-flex-flow: row wrap;
-align-items: flex-start;
-justify-content: center;
-min-width: 300px;
-background:#6f6f6f;
+	width:100%;
+	height:auto;
+	text-align: left;
+	display: flex;
+	flex: 1 1 300px;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	justify-content: center;
+	min-width: 300px;
+	background:#6f6f6f;
 }
 
 /* ------------------------------ */
 
 ul.menu ul {
-	font-family: 'cwTeXHei', Arial, sans-serif;
 	position: absolute;
 	z-index: 99;
 	left: -1px;
