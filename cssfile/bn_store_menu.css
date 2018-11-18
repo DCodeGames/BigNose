@@ -6,6 +6,11 @@ ul { /* 取消ul預設的內縮及樣式 */
 	list-style: none;
 }
 
+a{
+	font-family: 'cwTeXHei', Arial, sans-serif;
+	font-size:14;
+}
+
 ul.menu { /* 取消ul預設的內縮及樣式 */
 	width:100%;
 	height:auto;
