@@ -1,1 +1,53 @@
+.mbig .fewmore:hover ul{width:800px;padding-left:40px;padding-right:40px;height:auto;transition-duration:.5s;-webkit-transition-duration:.5s;-moz-transition-duration:.5s}.mbig#features .content{padding-top:187px}
+.mbig#features .content>section{width:900px;padding-top:0;padding-bottom:1.1em}
+.mbig#features .content h3{font-size:21px;font-size:1.05rem;line-height:1;font-weight:100;text-align:center;color:#999;margin:-0.2em auto 46px}
+.mbig#features .content h3 strong{font-weight:300;color:#FF3C00}
+.mbig#features .content h3 strong:after{content:"|";color:#fff;display:inline-block;margin:0 .6em}
+.mbig#features .content section{max-height:1000px !important;padding-bottom:1em;background-color:#000;border-bottom:solid 1px #3e3e3e;transition-duration:.5s;-webkit-transition-duration:.5s;-moz-transition-duration:.5s}
+.mbig#features .content h3+section{border-top:solid 1px #3e3e3e}.mbig#features .content .row{position:relative;width:100%}
+.mbig#features .content .hidden{height:60px !important;padding-top:0;padding-bottom:0;border-bottom:solid 1px #3e3e3e}
+.mbig#features .content .hidden h4:after{color:#999}.mbig#features .content h4{font-size:24px;font-size:1.2rem;line-height:1.3;font-weight:100;text-align:left;color:#fff;position:relative;margin:.6em 0;padding:0 40px 0 6px;cursor:pointer}
+.mbig#features .content h4:after{content:"+";font-size:26px;font-size:1.3rem;font-weight:800;line-height:1;text-indent:-0.05em;text-align:center;color:#ff5a00;display:block;position:absolute;right:0;top:3px;width:60px;height:100%}
+.mbig#features .content h4:hover:after{color:#ff5a00}.mbig#features .content p{font-size:15px;font-size:.75rem;line-height:1.46666667;font-weight:300;color:#000;padding:20px 25px 33px;margin:0 auto 0 !important;background-color:#fff}
+.mbig#features .content p+p{min-height:0;margin-top:-0.75em !important;padding-top:0}
+.mbig#features .content p+ul{margin-top:-1em !important;padding-top:0}
+.mbig#features .content ul{padding:15px 20px 32px 20px;background-color:#fff}
+.mbig#features .content li{font-size:14px;font-size:.7rem;line-height:1.57142857;font-weight:300;color:#000;margin-top:0.5em;padding:0 60px 0 .5em}
+.mbig#features .content li:before{content:"â€¢";margin-left:-0.5em;margin-right:.5em}
+#features .content{min-width:0;margin:0 auto;padding-top:80px;background-color:transparent;overflow:visible}
+#features .content .overview{margin:0 auto 80px;width:900px;min-height:100px;padding:40px 40px;background-color:#f2f2f2;border:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+#features .content .overview ul{margin-bottom:-0.2em;padding:0;background-color:transparent}
+#features .content .overview li{font-size:15px;font-size:.75rem;font-weight:300;text-indent:-0.8em;margin-top:0.9em;padding:0  0 0 .8em;background-color:transparent}
+#features .content .overview li:first-child{margin-top:-0.3em}
+#features .content .overview li:before{content:"â€¢";position:relative;left:0;top:-0.15em;margin-right:0.6em}
+#features .content .features{margin:0 auto;width:980px;overflow:hidden}#features .content .features.nogrid{overflow:visible}
+#features .content .features.nogrid li{display:block;margin:5.9em 0 0 42px;padding:0;width:900px;min-width:900px;border:none;clear:both}
+#features .content .features.nogrid li:first-child{margin-top:0}#features .content .features.nogrid h4{margin-top:-0.25em;margin-bottom:.6em;padding:0;border:none}
+#features .content .features ul{font-size:0;width:984px;margin-left:-1px}
+#features .content .features li{display:inline-block;margin-top:0;margin-right:-1px;margin-bottom:0;width:50%;padding:40px 40px 60px 40px;border-top:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;vertical-align:top}
+#features .content .features li h4,#features .content .features li h6{margin-top:-0.3em !important}
+#features .content .features .row{display:table;width:100%;min-width:900px}
+#features .content .features .row figure img{margin:8px 0 0 30px}
+#features .content .features .row figure:first-child img{margin:8px 30px 0 0}
+#features .content .features .row .col{display:table-cell;vertical-align:top}
+#features .content .features h4,#features .content .features h6{font-size:24px;font-size:1.2rem;font-weight:300;text-indent:0;line-height:1.25;text-transform:none;margin-top:-0.3em;margin-bottom:1em;padding-bottom:1.36em;border-bottom:1px solid #ccc}
+#features .content .features h4:first-child,#features .content .features h6:first-child{margin-top:0}
+#features .content .features p+h4,#features .content .features p+h6{margin-top:2.7em}
+#features .content .features p{font-size:15px;font-size:.75rem;font-weight:300;line-height:1.46666667;color:#000;padding:0;margin-bottom:-0.5em}
+#features .content .features p+p{margin-top:1.95em}.section-promos .row{width:980px;margin-top:80px}
 
+.mbig#features{padding-top:0 !important;margin-bottom:0}
+.mbig#features .content{min-width:320px;width:100%;padding-top:80px;padding-left:20px;padding-right:20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+.mbig#features .content>section{width:auto}.mbig#features .content .hidden{height:50px !important}
+
+@media screen and (max-width:767px){#product-hero{width:100%;min-width:320px;height:auto !important;overflow:hidden}
+#features .content{min-width:320px;width:100%}
+#features .content .overview{width:100%;min-width:320px;padding-left:20px;padding-right:20px}
+#features .content .features{width:100%;padding:0}
+#features .content .features ul{width:100%;margin-left:0}
+#features .content .features li,#features .content .features.nogrid li{margin:0 auto;width:auto;min-width:0;min-height:0;padding:20px;border-left:none;border-right:none;border-top:1px solid #ccc;float:none}
+#features .content .features.nogrid .row{min-width:0;width:100%}
+#features .content .features.nogrid .col{display:block}
+#features .content .features.nogrid .col>img{margin:30px 0 0;width:100%;height:auto}
+#features .content .features.nogrid .col:first-child>img{margin:20px 0 30px}
+}
