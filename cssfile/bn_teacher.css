@@ -25,6 +25,7 @@ min-width: 300px;
 }
 
 .pstyle1 {padding-left: 10px; }
+.li {padding-left: 10px; }
 
 #yt {
 flex: 1 1 300px;
