@@ -24,6 +24,8 @@ flex-flow: row wrap;
 min-width: 300px;
 }
 
+.pstyle1 {padding-left: 10px; }
+
 #yt {
 flex: 1 1 300px;
 flex-shrink: 1;
