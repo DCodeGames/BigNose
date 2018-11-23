@@ -13,12 +13,12 @@ align-items: flex-start;
 justify-content: space-around;
 }
 
-#subbox1 {
+.subbox1 {
 padding-top:10px;
 padding-bottom:10px;
 }
 
-#subbox2 {
+.subbox2 {
 padding-left:10px;
 padding-top:10px;
 padding-bottom:10px;
