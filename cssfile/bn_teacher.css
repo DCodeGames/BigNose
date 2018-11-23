@@ -7,7 +7,7 @@ justify-content: space-around;
 min-width: 300px;
 }
 
-#ytbox2 {
+#ytbox {
 display:grid;
 grid-template-columns: 50% 50%;
 flex-flow: row wrap;
@@ -46,5 +46,5 @@ min-width: 300px;
 }
 
 @media (max-width: 991px) {
-.ytbox2 {grid-template-columns: 100%; }
+.ytbox {grid-template-columns: 100%; }
 }
