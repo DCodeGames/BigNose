@@ -1,31 +1,19 @@
-strong
-{
-	font-family:cwTeXHei;
-}
-
-li
-{
-	font-family:cwTeXHei; font-size:14px;
-}
-
-p.text1
-{
-	font-family:cwTeXHei; font-size:16px;
-}
-
-p.text2
-{
-	font-family:cwTeXHei; font-size:12px;
-}
-
-
 #mainbox1 {
-	display: flex;
-	flex: 1 1 auto;
-	flex-flow: row wrap;
-	align-items: flex-start;
-	justify-content: space-around;
-	min-width: 300px;
+display: flex;
+flex: 1 1 auto;
+flex-flow: row wrap;
+align-items: flex-start;
+justify-content: space-around;
+min-width: 300px;
+}
+
+#ytbox2 {
+display:grid;
+grid-template-columns: 50% 50%;
+flex-flow: row wrap;
+align-items: flex-start;
+justify-content: space-around;
+min-width: 300px;
 }
 
 #subbox1 {
@@ -55,4 +43,8 @@ p.text2
 	max-width: 100%;
 	max-height: 100%;
 	min-width: 300px;
+}
+
+@media (max-width: 991px) {
+.ytbox2 {grid-template-columns: 100%; }
 }
