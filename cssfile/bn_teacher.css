@@ -7,7 +7,7 @@ justify-content: space-around;
 min-width: 300px;
 }
 
-#ytbox {
+.ytbox {
 display:grid;
 grid-template-columns: 50% 50%;
 flex-flow: row wrap;
