@@ -13,7 +13,6 @@ grid-template-columns: 50% 50%;
 flex-flow: row wrap;
 align-items: flex-start;
 justify-content: space-around;
-min-width: 300px;
 }
 
 #subbox1 {
