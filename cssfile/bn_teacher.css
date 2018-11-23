@@ -1,12 +1,3 @@
-#mainbox1 {
-display: flex;
-flex: 1 1 auto;
-flex-flow: row wrap;
-align-items: flex-start;
-justify-content: space-around;
-min-width: 300px;
-}
-
 .ytbox {
 display:grid;
 grid-template-columns: 50% 50%;
@@ -15,24 +6,29 @@ align-items: flex-start;
 justify-content: space-around;
 }
 
+#mainbox1 {
+display:grid;
+grid-template-columns: 50% 50%;
+display: flex;
+flex: 1 1 auto;
+align-items: flex-start;
+justify-content: space-around;
+}
+
 #subbox1 {
 padding-top:10px;
 padding-bottom:10px;
-flex: 1 1 300px;
-flex-shrink: 1;
-flex-flow: row wrap;
-min-width: 300px;
 }
 
-.pstyle1 {padding-left: 10px; }
-.li {padding-left: 10px; }
+#subbox2 {
+padding-left:10px;
+padding-top:10px;
+padding-bottom:10px;
+}
 
 #yt {
-flex: 1 1 300px;
-flex-shrink: 1;
 width: 100%;
 height: 315;
-min-width: 300px;
 }
 
 #picbox{
@@ -49,5 +45,6 @@ min-width: 300px;
 }
 
 @media (max-width: 991px) {
+.mainbox1 {grid-template-columns: 100%;
 .ytbox {grid-template-columns: 100%; }
 }
