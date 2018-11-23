@@ -43,6 +43,6 @@ min-width: 300px;
 }
 
 @media (max-width: 991px) {
-.mainbox1 {grid-template-columns: 100%;
+.mainbox1 {grid-template-columns: 100%;}
 .ytbox {grid-template-columns: 100%; }
 }
