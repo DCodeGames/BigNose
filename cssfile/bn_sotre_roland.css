@@ -13,7 +13,7 @@
 .main .specs tr{border-bottom:1px solid #ccc}
 .main .specs tr:first-child{border-top:1px solid #ccc}
 .main .specs th,.main .specs dt{color:#585858; font-size:22px;font-size:1.1rem;line-height:1.2;font-weight:100;color:#000;text-align:left;width:45.91836735%;padding:0.45em 2em 0.45em 0.45em;vertical-align:top;border-right:none}
-.main .specs td,.main .specs dd{color:#585858; font-size:15px;font-size:.8rem;line-height:1.46666667;font-weight:300;color:#000;text-align:left;width:55.55555556%;padding:.9em 1em .75em 0;vertical-align:top;border-left:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
+.main .specs td,.main .specs dd{color:#585858; font-size:15px;font-size:.9rem;line-height:1.46666667;font-weight:300;text-align:left;width:55.55555556%;padding:.9em 1em .75em 0;vertical-align:top;border-left:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
 .main .specs dt{width:500px;float:left;clear:both;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
 .main .specs dd{width:600px;margin-left:0;float:left}
 .main .specs .note{text-align:left;margin:.5em .5em -0.25em;padding:0;list-style-type:none}
