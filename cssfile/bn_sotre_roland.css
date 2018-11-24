@@ -28,7 +28,7 @@
 
 /* overview 定義內容 */
 #overview .col{position:relative;margin:0 auto;width:100%;max-width:1280px;padding:0 50px;z-index:1;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-#overview h2{font-size:48px;font-size:2.4rem;margin-left:0;margin-bottom:0.45em;text-transform:uppercase}
+#overview h2{font-size:48px;font-size:2.4rem;margin-left:0;margin-bottom:0;text-transform:uppercase}
 #overview h2,#overview p{font-weight:100;width:880px}
 #overview p{line-height:1.55555556;margin-left:0}
 
