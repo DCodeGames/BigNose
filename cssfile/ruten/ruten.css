@@ -1,0 +1,24 @@
+/* 定義youtube用class類別 */
+.youtube {position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;}
+.youtube iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+/* 定義運送頁面框體屬性用class類別 */
+.sand {position: relative;padding-bottom: 190px; padding-top: 25px; height: 0;}
+.sand iframe {position: absolute;top: 0; left: 0; width: 100%; height: 100%;}
+
+/* 定義IK商品圖片用class類別 */
+.ik img {width:100%; height:auto; max-width:1110px; max-height:auto; }
+
+.dbox-bc {background: #f7f7f7; }
+.dbox-in {padding: 20px; }
+.dbox-out {margin: 20px; }
+.dbox-line {border:1px solid #585858; }
+
+.font-c {text-align:center;}
+.font-r {text-align:right;}
+
+.img-f {width:100%; height:auto; max-width:1110px; max-height:auto; }
+.img-l {width:40%; float: left; margin-right: 20px; clear:both; }
+.img-r {width:40%; float: right; margin:left: 20px; clear:both; }
+
+.img-fix {overflow: auto; zoom: 1;}
