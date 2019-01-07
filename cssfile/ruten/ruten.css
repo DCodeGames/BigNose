@@ -17,6 +17,7 @@
 .font-c {text-align:center;}
 .font-r {text-align:right;}
 
+.img-f img {width:100%; height:auto; max-width:auto; max-height:auto; }
 .img-f {width:100%; height:auto; max-width:auto; max-height:auto; }
 .img-l {width:40%; float: left; margin-right: 20px; clear:both; }
 .img-r {width:40%; float: right; margin:left: 20px; clear:both; }
