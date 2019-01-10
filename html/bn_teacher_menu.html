@@ -1,6 +1,6 @@
 <head>
 <meta charset="utf-8">
-
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 <style type="text/css">
 
 * {font-family: 'Noto Sans TC', sans-serif; font-weight: 300;}
@@ -39,14 +39,13 @@ ul.menu ul {
 	transition: opacity 1s;
 }
 
-ul.menu li {border-width:1px; border-style:solid; border-color:#888;
-	background: #fff;
+ul.menu li {
+	border-width:1px; border-style:solid; border-color:#888;
+	background: #888;
 	text-decoration: none;
 	list-style: none;
 	position: relative;
 	white-space: nowrap;
-	right:-2px;
-	display:block;
 }
 
 ul.menu a {
@@ -75,17 +74,18 @@ ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
 	display: block;
 	opacity: 1;
 	transition: opacity 1s;
-	left: -3px;
+	left: 0px;
 	border-right: 5px;
 }
 
 /* ---------------------------- 選單滑出 -- */
 
-#barteacher{background: #888;
-width:100%;
-margin: 0px;
-position:fixed;
+#barteacher{
 z-index: 1;
+background: #888;
+width:100%;
+margin: auto;
+position:fixed;
 top:164px;
 left:0px;
 box-shadow: 0px 1px 10px #333; 
@@ -179,7 +179,7 @@ ul.menu {justify-content: left;}
 </ul>
 </div>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type='text/javascript'>
 $(function(){
 　$(window).load(function(){
