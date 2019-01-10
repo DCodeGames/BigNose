@@ -1,4 +1,12 @@
 
+* {font-family: 'Noto Sans TC', sans-serif; font-weight: 300;}
+
+img{
+width: auto;
+height: auto;
+max-width: 100%;
+max-height: 100%;}
+
 /* ---------- 大小與定位 ---------- */
 
 ul { /* 取消ul預設的內縮及樣式 */
@@ -17,13 +25,12 @@ flex-flow: row wrap;
 align-items: flex-start;
 justify-content: center;
 min-width: 300px;
-background:#6f6f6f;
+background: #6f6f6f;
 }
 
 /* ------------------------------ */
 
 ul.menu ul {
-	font-family: 'cwTeXHei', Arial, sans-serif;
 	position: absolute;
 	z-index: 99;
 	left: -1px;
@@ -43,10 +50,44 @@ ul.menu li {
 }
 
 ul.menu a {
-	font-family: 'cwTeXHei', Arial, sans-serif;
 	background-color: #6f6f6f;
 	color: #fff;
 	display: block;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	width:4.5rem;
+	line-height: 1rem;
+}
+
+/* ------------------------------ */
+
+ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
+	background-color: #fff;
+	color: #6f6f6f;
+}
+
+ul.menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+	display: block;
+	background-color: #fff;
+	color: #6f6f6f;
+}
+
+ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
+	display: block;
+	opacity: 1;
+	transition: opacity 1s;
+	left: 0px;
+	border-right: 5px;
+}
+
+@media (max-width: 575.98px) {
+
+ul.menu {
+text-align: left;
+
+justify-content: left;
+}
+};
 	padding: 0 30px;
 	text-decoration: none;
 	line-height: 40px;
