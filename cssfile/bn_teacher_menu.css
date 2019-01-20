@@ -1,22 +1,11 @@
-
-* {font-family: 'Noto Sans TC', sans-serif; font-weight: 300;}
-
-img{
-width: auto;
-height: auto;
-max-width: 100%;
-max-height: 100%;}
-
-/* ---------- 大小與定位 ---------- */
-
-ul { /* 取消ul預設的內縮及樣式 */
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-ul.menu { /* 取消ul預設的內縮及樣式 */
-width:100%;
+body {padding-top: 210px !important;}
+/* ------------------ 大小與定位 -- */
+.menu{max-width: 100%; margin: auto; background: #6f6f6f; letter-spacing: 0.3rem;}
+/* 取消ul預設的內縮及樣式 */
+ul {margin: 0; padding: 0; list-style: none;}
+/* 取消ul預設的內縮及樣式 */
+ul.menu { 
+width:auto;
 height:auto;
 text-align: center;
 display: flex;
@@ -27,9 +16,7 @@ justify-content: center;
 min-width: 300px;
 background: #6f6f6f;
 }
-
 /* ------------------------------ */
-
 ul.menu ul {
 	position: absolute;
 	z-index: 99;
@@ -40,38 +27,32 @@ ul.menu ul {
 	-webkit-transition: opacity 1s;
 	transition: opacity 1s;
 }
-
 ul.menu li {
-	background: #6f6f6f;
+	border-width:1px; border-style:solid; border-color:#888;
+	background: #888;
 	text-decoration: none;
 	list-style: none;
 	position: relative;
 	white-space: nowrap;
 }
-
 ul.menu a {
-	background-color: #6f6f6f;
+	background-color: #888;
 	color: #fff;
 	display: block;
 	padding: 1rem 1rem;
 	text-decoration: none;
-	width:4.5rem;
 	line-height: 1rem;
 }
-
 /* ------------------------------ */
-
 ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
 	background-color: #fff;
 	color: #6f6f6f;
 }
-
 ul.menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
 	display: block;
 	background-color: #fff;
 	color: #6f6f6f;
 }
-
 ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
 	display: block;
 	opacity: 1;
@@ -79,38 +60,22 @@ ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
 	left: 0px;
 	border-right: 5px;
 }
-
-@media (max-width: 575.98px) {
-
-ul.menu {
-text-align: left;
-
-justify-content: left;
+/* ---------------------------- 選單滑出 -- */
+#barteacher{
+z-index: 1;
+background: #888;
+width:100%;
+margin: auto;
+position:fixed;
+top:164px;
+left:0px;
+box-shadow: 0px 1px 10px #333; 
 }
-};
-	padding: 0 30px;
-	text-decoration: none;
-	line-height: 40px;
+/* ---------------------------- 解析度 -- */
+	@media (max-width: 991px) {
+body {padding-top: 150px !important;}
+#barteacher{top:50px;}
 }
-
-/* ------------------------------ */
-
-ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
-	background-color: #fff;
-	color: #6f6f6f;
-}
-
-ul.menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
-	display: block;
-	background-color: #fff;
-	color: #6f6f6f;
-}
-
-ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
-	display: block;
-	opacity: 1;
-	-webkit-transition: opacity 1s;
-	transition: opacity 1s;
-	left: -1px;
-	border-right: 5px;
+	@media (max-width: 575.98px) {
+ul.menu {justify-content: left;}
 }
