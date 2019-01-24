@@ -9,27 +9,24 @@ border-left: none;
 }
 
 table caption {
-font-family: 'cwTeXHei', sans-serif;
 font-style: normal;
 margin-bottom: 12px;
 }
 
 table th {
-font-family: 'cwTeXHei', sans-serif;
 text-transform: uppercase;
 font-weight: normal;
 text-align: right;
-font-size: 13px;
+font-size: 0.85rem;
 color: #7E753D;
 padding: 6px 6px 6px;
 border-top: 1px solid #d5d5d2;
 }
 
 table td{
-font-family: 'cwTeXHei', sans-serif;
 text-align: left;
 background-color: #FAF9F5;
-font-size: 12px;
+font-size: 0.85rem;
 color: #7C7B77;
 padding: 6px 6px 6px;
 border-top: 1px solid #d5d5d2
