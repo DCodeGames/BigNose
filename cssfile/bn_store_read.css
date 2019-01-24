@@ -1,7 +1,2 @@
 /* ------------------ 該腳本目前沒有用途 -- */
-
-strong{}
-
-li {font-size:0.9rem; }
-p {font-size:0.9rem; color:#4C4B45; }
-span {font-size:0.9rem; }
+.ckeditor {font-size:0.9rem;}
