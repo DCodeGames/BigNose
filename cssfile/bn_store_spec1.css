@@ -9,14 +9,12 @@ border-left: none;
 }
 
 table caption {
-font-family: 'cwTeXHei', sans-serif;
 font-style: normal;
 margin-bottom: 12px;
 }
 
 table th {
 width: 25%;
-font-family: 'cwTeXHei', sans-serif;
 text-transform: uppercase;
 font-weight: normal;
 text-align: left;
@@ -28,7 +26,6 @@ border-top: 1px solid #d5d5d2;
 
 table td{
 width: 75%;
-font-family: 'cwTeXHei', sans-serif;
 text-align: center;
 background-color: #FAF9F5;
 font-size: 0.85rem;
