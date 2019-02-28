@@ -24,7 +24,6 @@ ul.menu ul {
 	top: 100%;
 	left: 99999px;
 	opacity: 0;
-	-webkit-transition: opacity 1s;
 	transition: opacity 1s;
 }
 ul.menu li {
@@ -39,7 +38,7 @@ ul.menu a {
 	background-color: #888;
 	color: #fff;
 	display: block;
-	padding: 1rem 1rem;
+	padding: 0.6rem 1rem;
 	text-decoration: none;
 	line-height: 1rem;
 }
