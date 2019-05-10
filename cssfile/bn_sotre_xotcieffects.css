@@ -37,6 +37,8 @@ max-height: 100%;}
 .search-txt1{color:#fff;}
 
 @media (max-width: 575.98px) {
+.main-slider{margin-right: -15px; margin-left: -15px;}
+
 .title-box{padding:3rem 2rem 5rem;}
 .title-txt1{padding: 1rem 0 1rem; font-size:1.6rem;}
 .title-txt2{font-size:1.1rem;}
@@ -44,4 +46,4 @@ max-height: 100%;}
 .overview-box1{padding:2.5rem 0;}
 .overview-box2{padding:2rem; font-size:0.9rem;}
 .search-btn {font-size: 1.5rem;}
-}}
+}
