@@ -1,4 +1,4 @@
-body {padding-top: 154px !important;}
+body {padding-top: 134px !important;}
 /* ------------------ 大小與定位 -- */
 .menu{max-width: 100%; margin: auto; background: #6f6f6f; letter-spacing: 0.3rem;}
 /* 取消ul預設的內縮及樣式 */
@@ -66,7 +66,7 @@ background: #888;
 width:100%;
 margin: auto;
 position:fixed;
-top:116px;
+top:96px;
 left:0px;
 box-shadow: 0px 1px 10px #333; 
 }
