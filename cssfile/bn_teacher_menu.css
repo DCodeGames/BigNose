@@ -1,20 +1,25 @@
 body {padding-top: 134px !important;}
+* {font-family: 'Noto Sans TC', sans-serif; font-weight: 300;}
+
 /* ------------------ 大小與定位 -- */
-.menu{max-width: 100%; margin: auto; background: #6f6f6f; letter-spacing: 0.3rem;}
+.menu{background-color: #ffffff; max-width: 100%; margin: auto; letter-spacing: 0.3rem;}
 /* 取消ul預設的內縮及樣式 */
+
 ul {margin: 0; padding: 0; list-style: none;}
 /* 取消ul預設的內縮及樣式 */
-ul.menu { 
-width:auto;
-height:auto;
-text-align: center;
-display: flex;
-flex: 1 1 300px;
-flex-flow: row wrap;
-align-items: flex-start;
-justify-content: center;
-min-width: 300px;
-background: #6f6f6f;
+
+ul.menu {
+min-width: 300px; width: auto; height: auto;
+display: flex; flex: 1 1 300px; flex-flow: row wrap;
+text-align: center; align-items: flex-start; justify-content: center;
+}
+/* ---------------------------- 選單滑出 -- */
+#barteacher{
+z-index: 1;
+width:100%;
+position:fixed;
+top:96px;
+left:0px;
 }
 /* ------------------------------ */
 ul.menu ul {
@@ -25,33 +30,50 @@ ul.menu ul {
 	left: 99999px;
 	opacity: 0;
 	transition: opacity 1s;
+	transition height .5s ease
 }
 ul.menu li {
-	border-width:1px; border-style:solid; border-color:#888;
-	background: #888;
 	text-decoration: none;
 	list-style: none;
 	position: relative;
 	white-space: nowrap;
 }
-ul.menu a {
-	background-color: #888;
-	color: #fff;
+ul.menu li a {
+	color: #585858;
 	display: block;
-	padding: 0.6rem 1rem;
+	padding: 0.4rem 0.8rem;
 	text-decoration: none;
-	line-height: 1rem;
+	line-height: 30px;
 }
+
+.submenu {background-color: #ffffff; margin: auto; justify-content: center; align-items: center; text-align: center; 
+border: 1px solid rgba(0,0,0,.15);}
+.submenu a {margin:0 6px;  border-bottom: 1px solid rgba(0,0,0,.15);}
+.submenu li:hover {background-color: #a9dcd7;}
+
 /* ------------------------------ */
-ul.menu a:hover { /* 滑鼠滑入按鈕變色*/
-	background-color: #fff;
-	color: #6f6f6f;
+ul.menu li ul {
+	/* 讓第二層ul跳脫文件流以利定位 */
+    position:absolute;
+
+    /* 固定寬度 */
+
+    /* 避免出現捲軸 */
+    overflow:visible;
+
+    /* 讓ul與母階層li相同位置 */
+    clear:left;
+	line-height: 0rem;
+    margin:0; padding:0;
+	text-decoration: none;
 }
+
 ul.menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
 	display: block;
-	background-color: #fff;
-	color: #6f6f6f;
+	background-color: #a9dcd7;
+	color: #fff;
 }
+
 ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
 	display: block;
 	opacity: 1;
@@ -59,22 +81,22 @@ ul.menu li:hover > ul { /* 滑鼠滑入展開次選單*/
 	left: 0px;
 	border-right: 5px;
 }
-/* ---------------------------- 選單滑出 -- */
-#barteacher{
-z-index: 1;
-background: #888;
-width:100%;
-margin: auto;
-position:fixed;
-top:96px;
-left:0px;
-box-shadow: 0px 1px 10px #333; 
+
+ul.menu li a ul li > a{
+	padding: 0rem 0rem;
+	text-decoration: none;
+	line-height: 0rem;
 }
+
+
 /* ---------------------------- 解析度 -- */
-	@media (max-width: 991px) {
+@media (max-width: 991px) {
 body {padding-top: 150px !important;}
 #barteacher{top:50px;}
 }
-	@media (max-width: 575.98px) {
+@media (max-width: 575.98px) {
 ul.menu {justify-content: left;}
 }
+
+.youtube {position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;}
+.youtube iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%; frameborder:0;}
