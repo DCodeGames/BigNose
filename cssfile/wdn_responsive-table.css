@@ -25,8 +25,9 @@
     background-color: #eae9e6
 }
 
-.sandbox table td, table th {
-    text-align: left
+.sandbox table td, .sandbox table th {
+width: 25%;
+text-align: left;
 }
 
 .sandbox table td {
