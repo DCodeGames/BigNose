@@ -14,7 +14,7 @@
 }
 
 .sandbox table th {
-    width: 25%;
+    width: 20%;
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
@@ -26,12 +26,11 @@
 }
 
 .sandbox table td, .sandbox table th {
-width: 25%;
+width: 20%;
 text-align: left;
 }
 
 .sandbox table td {
-    width: 25%;
     padding: .92307em 1em .7692em
 }
 
