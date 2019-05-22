@@ -1,15 +1,11 @@
-<!--  place the contents of this css file, in the <head></head> of your html page when using 
-the responsive table generator code on sites not in UNLcms or the UNL.edu framework -->
-
-<style>
-table {
+.sandbox table {
     width: 100%;
     max-width: 100%;
     border: 1px solid #d5d5d2;
     border-collapse: collapse
 }
 
-table caption {
+.sandbox table caption {
     font-weight: 400;
     font-style: normal;
     font-size: 2.954rem;
@@ -17,7 +13,7 @@ table caption {
     margin-bottom: .75em
 }
 
-table th {
+.sandbox table th {
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
@@ -28,48 +24,48 @@ table th {
     background-color: #eae9e6
 }
 
-table td, table th {
+.sandbox table td, table th {
     text-align: left
 }
 
-table td {
+.sandbox table td {
     padding: .92307em 1em .7692em
 }
 
-table tbody tr:nth-of-type(even) {
+.sandbox table tbody tr:nth-of-type(even) {
     background-color: #f9f8f5
 }
 
-table tbody th {
+.sandbox table tbody th {
     border-top: 1px solid #d5d5d2
 }
 
-table tbody td {
+.sandbox table tbody td {
     border-top: 1px solid #d5d5d2
 }
 
-table.wdn_responsive_table thead th abbr {
+.sandbox table.wdn_responsive_table thead th abbr {
     border-bottom: none
 }
 
 @media screen and (max-width:47.99em) {
-    table.wdn_responsive_table td, table.wdn_responsive_table th {
+    .sandbox table.wdn_responsive_table td, table.wdn_responsive_table th {
         display: block
     }
 
-    table.wdn_responsive_table thead tr {
+    .sandbox table.wdn_responsive_table thead tr {
         display: none
     }
 
-    table.wdn_responsive_table tbody tr:first-child th {
+    .sandbox table.wdn_responsive_table tbody tr:first-child th {
         border-top-width: 0
     }
 
-    table.wdn_responsive_table tbody tr:nth-of-type(even) {
+    .sandbox table.wdn_responsive_table tbody tr:nth-of-type(even) {
         background-color: transparent
     }
 
-    table.wdn_responsive_table tbody td {
+    .sandbox table.wdn_responsive_table tbody td {
         text-align: left
     }
 
@@ -79,41 +75,40 @@ table.wdn_responsive_table thead th abbr {
         content: attr(data-header)
     }
 
-    table.wdn_responsive_table tbody td:empty {
+    .sandbox table.wdn_responsive_table tbody td:empty {
         display: none
     }
 
-    table.wdn_responsive_table tbody td:nth-of-type(even) {
+    .sandbox table.wdn_responsive_table tbody td:nth-of-type(even) {
         background-color: #f9f8f5
     }
 }
 
 @media (min-width:48em) {
-    table caption {
+    .sandbox table caption {
         font-size: 2.532rem
     }
 
-    table th {
+    .sandbox table th {
         padding: 1.2307em 1.2307em 1em;
         font-size: .802rem
     }
 
-    table td {
+    .sandbox table td {
         padding: .75em 1em .602em
     }
 }
 
 @media screen and (min-width:48em) {
-    table.wdn_responsive_table thead th:not(:first-child) {
+    .sandbox table.wdn_responsive_table thead th:not(:first-child) {
         text-align: center
     }
 
-    table.wdn_responsive_table tbody td {
+    .sandbox table.wdn_responsive_table tbody td {
         text-align: center
     }
 
-    table.wdn_responsive_table.flush-left td, table.wdn_responsive_table.flush-left thead th {
+    .sandbox table.wdn_responsive_table.flush-left td, table.wdn_responsive_table.flush-left thead th {
         text-align: left
     }
 }
-</style>
