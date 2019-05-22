@@ -51,10 +51,10 @@ text-align: left;
 }
 
 /* 當解析度小於600時的行為 */
-@media screen and (max-width:600pxem) {
-.sandbox table td, .sandbox table th {font-size: 0.85rem;}
-.sandbox table td, {padding: 1em;}
+@media screen and (max-width:600px) {
+.sandbox table th, .sandbox table td {font-size: 0.85rem;}
 .sandbox table th, {padding: 1em;}
+.sandbox table td, {padding: .5rem .3em;}
 }
 
 @media screen and (max-width:47.99em) {
