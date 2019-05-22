@@ -52,9 +52,9 @@ text-align: left;
 
 /* 當解析度小於600時的行為 */
 @media screen and (max-width:600pxem) {
-.wdn_responsive_table td, .wdn_responsive_table th {font-size: 0.85rem;}
-.wdn_responsive_table td, {padding: 1em;}
-.wdn_responsive_table th, {padding: 1em;}
+.sandbox table td, .sandbox table th {font-size: 0.85rem;}
+.sandbox table td, {padding: 1em;}
+.sandbox table th, {padding: 1em;}
 }
 
 @media screen and (max-width:47.99em) {
