@@ -46,36 +46,36 @@ border-bottom: none
 
 /* 當解析度小於600時的行為 */
 @media screen and (max-width:600pxem) {
-table.wdn_responsive_table td, table.wdn_responsive_table th {
+.wdn_responsive_table td, table.wdn_responsive_table th {
 display: block
 }
 
-table.wdn_responsive_table thead tr {
+.wdn_responsive_table thead tr {
 display: none
 }
 
-table.wdn_responsive_table tbody tr:first-child th {
+.wdn_responsive_table tbody tr:first-child th {
 border-top-width: 0
 }
 
-table.wdn_responsive_table tbody tr:nth-of-type(even) {
+.wdn_responsive_table tbody tr:nth-of-type(even) {
 background-color: transparent
 }
 
-table.wdn_responsive_table tbody td {
+.wdn_responsive_table tbody td {
 text-align: left
 }
 
-table.wdn_responsive_table tbody td:before {
+.wdn_responsive_table tbody td:before {
 display: block;
 content: attr(data-header)
 }
 
-table.wdn_responsive_table tbody td:empty {
+.wdn_responsive_table tbody td:empty {
 display: none
 }
 
-table.wdn_responsive_table tbody td:nth-of-type(even) {
+.wdn_responsive_table tbody td:nth-of-type(even) {
 background-color: #f9f8f5
 }
 }
