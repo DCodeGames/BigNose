@@ -1,4 +1,4 @@
-.wdn_responsive_table table {
+.wdn_responsive_table {
 width: 100%;
 max-width: 100%;
 border-collapse: collapse;
@@ -8,12 +8,12 @@ border-right: none;
 border-left: none; 
 }
 
-.wdn_responsive_table table caption {
+.wdn_responsive_table caption {
 font-style: normal;
 margin-bottom: 12px;
 }
 
-.wdn_responsive_table table th {
+.wdn_responsive_table th {
 width: 25%;
 text-transform: uppercase;
 font-weight: normal;
@@ -24,7 +24,7 @@ padding: 6px 6px 6px;
 border-top: 1px solid #d5d5d2;
 }
 
-.wdn_responsive_table table td{
+.wdn_responsive_table td{
 width: 75%;
 text-align: left;
 background-color: #FAF9F5;
