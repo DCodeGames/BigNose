@@ -51,7 +51,7 @@ text-align: left;
 }
 
 @media screen and (max-width:47.99em) {
-    .sandbox table.wdn_responsive_table td, table.wdn_responsive_table th {
+    .sandbox table.wdn_responsive_table td, .sandbox table.wdn_responsive_table th {
         display: block
     }
 
@@ -71,7 +71,7 @@ text-align: left;
         text-align: left
     }
 
-    table.wdn_responsive_table tbody td:before {
+    .sandbox table.wdn_responsive_table tbody td:before {
         display: block;
         font-weight: 700;
         content: attr(data-header)
