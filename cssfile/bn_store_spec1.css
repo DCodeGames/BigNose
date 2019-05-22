@@ -40,7 +40,7 @@ background-color: #f9f8f5
 }
 */
 
-table.wdn_responsive_table thead th abbr {
+.wdn_responsive_table th abbr {
 border-bottom: none
 }
 
