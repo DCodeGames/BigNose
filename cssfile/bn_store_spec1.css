@@ -1,4 +1,4 @@
-table {
+.wdn_responsive_table table {
 width: 100%;
 max-width: 100%;
 border-collapse: collapse;
@@ -8,12 +8,12 @@ border-right: none;
 border-left: none; 
 }
 
-table caption {
+.wdn_responsive_table table caption {
 font-style: normal;
 margin-bottom: 12px;
 }
 
-table th {
+.wdn_responsive_table table th {
 width: 25%;
 text-transform: uppercase;
 font-weight: normal;
@@ -24,7 +24,7 @@ padding: 6px 6px 6px;
 border-top: 1px solid #d5d5d2;
 }
 
-table td{
+.wdn_responsive_table table td{
 width: 75%;
 text-align: center;
 background-color: #FAF9F5;
@@ -35,62 +35,62 @@ border-top: 1px solid #d5d5d2
 }
 
 /* 變換行的 TR 表格樣式 
-table tbody tr:nth-of-type(even) {
+.wdn_responsive_table table tbody tr:nth-of-type(even) {
 background-color: #f9f8f5
 }
 */
 
-table.wdn_responsive_table thead th abbr {
+.wdn_responsive_table table.wdn_responsive_table thead th abbr {
 border-bottom: none
 }
 
 /* 當解析度小於600時的行為 */
 @media screen and (max-width:600pxem) {
-table.wdn_responsive_table td, table.wdn_responsive_table th {
+.wdn_responsive_table table.wdn_responsive_table td, table.wdn_responsive_table th {
 display: block
 }
 
-table.wdn_responsive_table thead tr {
+.wdn_responsive_table table.wdn_responsive_table thead tr {
 display: none
 }
 
-table.wdn_responsive_table tbody tr:first-child th {
+.wdn_responsive_table table.wdn_responsive_table tbody tr:first-child th {
 border-top-width: 0
 }
 
-table.wdn_responsive_table tbody tr:nth-of-type(even) {
+.wdn_responsive_table table.wdn_responsive_table tbody tr:nth-of-type(even) {
 background-color: transparent
 }
 
-table.wdn_responsive_table tbody td {
+.wdn_responsive_table table.wdn_responsive_table tbody td {
 text-align: left
 }
 
-table.wdn_responsive_table tbody td:before {
+.wdn_responsive_table table.wdn_responsive_table tbody td:before {
 display: block;
 content: attr(data-header)
 }
 
-table.wdn_responsive_table tbody td:empty {
+.wdn_responsive_table table.wdn_responsive_table tbody td:empty {
 display: none
 }
 
-table.wdn_responsive_table tbody td:nth-of-type(even) {
+.wdn_responsive_table table.wdn_responsive_table tbody td:nth-of-type(even) {
 background-color: #f9f8f5
 }
 }
 
 /* 當解析度大於 601 時的行為 */
 @media screen and (min-width:601px) {
-table.wdn_responsive_table thead th:not(:first-child) {
+.wdn_responsive_table table.wdn_responsive_table thead th:not(:first-child) {
 text-align: center
 }
 
-table.wdn_responsive_table tbody td {
+.wdn_responsive_table table.wdn_responsive_table tbody td {
 text-align: center
 }
 
-table.wdn_responsive_table.flush-left td, table.wdn_responsive_table.flush-left thead th {
+.wdn_responsive_table table.wdn_responsive_table.flush-left td, table.wdn_responsive_table.flush-left thead th {
 text-align: left
 }
 }
