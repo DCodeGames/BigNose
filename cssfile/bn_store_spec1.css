@@ -35,7 +35,7 @@ border-top: 1px solid #d5d5d2
 }
 
 /* 變換行的 TR 表格樣式 
-.wdn_responsive_table table tbody tr:nth-of-type(even) {
+.wdn_responsive_table tbody tr:nth-of-type(even) {
 background-color: #f9f8f5
 }
 */
