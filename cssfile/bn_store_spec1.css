@@ -46,7 +46,7 @@ border-bottom: none
 
 /* 當解析度小於600時的行為 */
 @media screen and (max-width:600pxem) {
-.wdn_responsive_table td, table.wdn_responsive_table th {
+.wdn_responsive_table td, .wdn_responsive_table th {
 display: block
 }
 
