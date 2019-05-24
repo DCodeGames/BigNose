@@ -4,16 +4,12 @@ caption {display:none;}
 width: 100%;
 max-width: 100%;
 border-collapse: collapse;
-border-top: 1px solid #B8AB92;
-border-bottom: 1px solid #B8AB92; 
+border-bottom: 1px solid #e8e8e8; 
 border-right: none; 
 border-left: none; 
 }
 
-.wdn_responsive_table caption {
-font-style: normal;
-margin-bottom: 12px;
-}
+.wdn_responsive_table caption {font-style: normal;}
 
 .wdn_responsive_table th {
 width: 25%;
@@ -21,9 +17,9 @@ text-transform: uppercase;
 font-weight: normal;
 text-align: right;
 font-size: 0.85rem;
-color: #7E753D;
+color: #212529;
 padding: 6px 6px 6px;
-border-top: 1px solid #d5d5d2;
+border-top: 1px solid #e8e8e8;
 }
 
 .wdn_responsive_table td{
@@ -31,9 +27,9 @@ width: 75%;
 text-align: left;
 background-color: #FAF9F5;
 font-size: 0.85rem;
-color: #373737;
+color: #212529;
 padding: 6px 6px 6px;
-border-top: 1px solid #d5d5d2
+border-top: 1px solid #e8e8e8
 }
 
 /* 變換行的 TR 表格樣式 
