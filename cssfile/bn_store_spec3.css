@@ -32,6 +32,10 @@ padding: 6px 6px 6px;
 border-top: 1px solid #d5d5d2
 }
 
+.caption {
+padding:0;
+}
+
 /* 變換行的 TR 表格樣式 
 table tbody tr:nth-of-type(even) {
 background-color: #f9f8f5
