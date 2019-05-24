@@ -26,12 +26,16 @@ border-top: 1px solid #d5d5d2;
 
 .wdn_responsive_table td{
 width: 75%;
-text-align: center;
-background-color: #FAF9F5;
 font-size: 0.85rem;
 color: #373737;
-padding: 6px 6px 6px;
-border-top: 1px solid #d5d5d2
+background-color: #FAF9F5;
+text-align: center;
+padding: 6px;
+border-top: 1px solid #d5d5d2;
+}
+
+.caption {
+padding:0;
 }
 
 /* 變換行的 TR 表格樣式 
@@ -52,46 +56,46 @@ width: 100%;
 }
 
 .wdn_responsive_table thead tr {
-display: none
+display: none;
 }
 
 .wdn_responsive_table tbody tr:first-child th {
-border-top-width: 0
+border-top-width: 0;
 }
 
 .wdn_responsive_table tbody tr:nth-of-type(even) {
-background-color: transparent
+background-color: transparent;
 }
 
 .wdn_responsive_table tbody td {
-text-align: left
+text-align: left;
 }
 
 .wdn_responsive_table tbody td:before {
 display: block;
-content: attr(data-header)
+content: attr(data-header);
 }
 
 .wdn_responsive_table tbody td:empty {
-display: none
+display: none;
 }
 
 .wdn_responsive_table tbody td:nth-of-type(even) {
-background-color: #f9f8f5
+background-color: #f9f8f5;
 }
 }
 
 /* 當解析度大於 601 時的行為 */
 @media screen and (min-width:601px) {
 table.wdn_responsive_table thead th:not(:first-child) {
-text-align: center
+text-align: center;
 }
 
 table.wdn_responsive_table tbody td {
-text-align: center
+text-align: center;
 }
 
 table.wdn_responsive_table.flush-left td, table.wdn_responsive_table.flush-left thead th {
-text-align: left
+text-align: left;
 }
 }
