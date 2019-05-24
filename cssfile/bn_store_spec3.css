@@ -13,14 +13,14 @@ border-left: none;
 
 .wdn_responsive_table th {
 text-align: right;
-padding: 6px;
+padding: .5rem;
 border-top: 1px solid #e8e8e8;
 }
 
 .wdn_responsive_table td{
 text-align: left;
 background-color: #FAF9F5;
-padding: 6px;
+padding: .5rem;
 border-top: 1px solid #e8e8e8;
 }
 
