@@ -1,8 +1,7 @@
 caption {display:none;}
 
-.wdn_responsive_table caption {font-style: normal;}
-
 .wdn_responsive_table {
+font-size: 0.85rem;
 color: #212529;
 width: 100%;
 max-width: 100%;
@@ -14,10 +13,7 @@ border-left: none;
 
 .wdn_responsive_table th {
 width: 25%;
-text-transform: uppercase;
-font-weight: normal;
 text-align: right;
-font-size: 0.85rem;
 padding: 6px;
 border-top: 1px solid #e8e8e8;
 }
@@ -26,7 +22,6 @@ border-top: 1px solid #e8e8e8;
 width: 75%;
 text-align: left;
 background-color: #FAF9F5;
-font-size: 0.85rem;
 padding: 6px;
 border-top: 1px solid #e8e8e8
 }
