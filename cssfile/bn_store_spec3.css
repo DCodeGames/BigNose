@@ -1,3 +1,5 @@
+caption {display:none;}
+
 .wdn_responsive_table {
 width: 100%;
 max-width: 100%;
@@ -30,10 +32,6 @@ font-size: 0.85rem;
 color: #373737;
 padding: 6px 6px 6px;
 border-top: 1px solid #d5d5d2
-}
-
-.caption {
-padding:0;
 }
 
 /* 變換行的 TR 表格樣式 
