@@ -41,9 +41,18 @@ ul.menu li {
 ul.menu li a {
 	color: #585858;
 	display: block;
-	padding: 0.4rem 0.8rem;
+	padding: 0.1rem 0.8rem;
 	text-decoration: none;
 	font-size:14px;
+	line-height: 30px;
+}
+
+#barteacher > li > ul > div > li > a{
+	color: #585858;
+	display: block;
+	padding: 0.02rem 0.5rem;
+	text-decoration: none;
+	font-size:12px;
 	line-height: 30px;
 }
 
