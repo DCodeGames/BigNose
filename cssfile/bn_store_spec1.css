@@ -1,5 +1,5 @@
 caption {display:none;}
-
+/* 選單主選項 */
 .wdn_responsive_table, .dcf-table {
 font-size: 0.85rem;
 color: #212529;
@@ -10,15 +10,15 @@ border-bottom: 1px solid #e8e8e8;
 border-right: none; 
 border-left: none; 
 }
-
-.wdn_responsive_table, .dcf-table th {
+/* 第一排選單的樣式 */
+.wdn_responsive_table th, .dcf-table th {
 width: 25%;
 text-align: left;
 padding: .5rem;
 border-top: 1px solid #e8e8e8;
 }
-
-.wdn_responsive_table, .dcf-table td{
+/* 第二層之後的選單樣式 */
+.wdn_responsive_table td, .dcf-table td{
 width: 75%;
 background-color: #FAF9F5;
 text-align: center;
@@ -29,61 +29,4 @@ border-top: 1px solid #e8e8e8;
 /* 變換行的 TR 表格樣式 
 .wdn_responsive_table, .dcf-table tbody tr:nth-of-type(even) {
 background-color: #f9f8f5
-}
-*/
-
-.wdn_responsive_table, .dcf-table th abbr {
-border-bottom: none
-}
-
-/* 當解析度小於600時的行為 */
-@media screen and (max-width:600pxem) {
-.wdn_responsive_table td, .wdn_responsive_table, .dcf-table th {
-display: block;
-width: 100%;
-}
-
-.wdn_responsive_table, .dcf-table thead tr {
-display: none;
-}
-
-.wdn_responsive_table tbody, .dcf-table tr:first-child th {
-border-top-width: 0;
-}
-
-.wdn_responsive_table, .dcf-table tbody tr:nth-of-type(even) {
-background-color: transparent;
-}
-
-.wdn_responsive_table, .dcf-table tbody td {
-text-align: left;
-}
-
-.wdn_responsive_table, .dcf-table tbody td:before {
-display: block;
-content: attr(data-header);
-}
-
-.wdn_responsive_table, .dcf-table tbody td:empty {
-display: none;
-}
-
-.wdn_responsive_table, .dcf-table tbody td:nth-of-type(even) {
-background-color: #f9f8f5;
-}
-}
-
-/* 當解析度大於 601 時的行為 */
-@media screen and (min-width:601px) {
-table.wdn_responsive_table, .dcf-table thead th:not(:first-child) {
-text-align: center;
-}
-
-table.wdn_responsive_table, .dcf-table tbody td {
-text-align: center;
-}
-
-table.wdn_responsive_table.flush-left td, .dcf-table, table.wdn_responsive_table.flush-left thead th {
-text-align: left;
-}
-}
+}*/
