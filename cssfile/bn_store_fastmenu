@@ -1,0 +1,53 @@
+<head>
+<meta charset="utf-8">
+
+<style type="text/css">
+
+.btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {
+margin-left: 1px;
+}
+
+.btn-group, .btn-group-vertical {
+display: block;
+}
+
+.btn {
+border-radius: 20px;
+padding: 0.2rem;
+margin: 1px;
+min-width: 19.5%;
+max-width: 19.5%;
+}
+
+btn-group {
+min-width: 19.5%;
+max-width: 19.5%;
+}
+
+card card-body
+btn-group {
+min-width: 100%;
+max-width: 100%;
+}
+
+.card-body {
+padding: 0.5rem;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.btn {
+min-width: 32.5%;
+max-width: 32.5%;
+}
+
+}
+@media (max-width: 575.98px) {
+.btn {
+min-width: 32%;
+max-width: 32%;
+}
+
+}
+</style>
+</head>
