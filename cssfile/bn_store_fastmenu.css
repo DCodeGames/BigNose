@@ -1,4 +1,4 @@
-.btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {margin-left: 1px;}
+.btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {margin-left: 0px;}
 
 .btn-group, .btn-group-vertical {display: block;}
 
