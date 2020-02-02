@@ -1,5 +1,4 @@
 .btn-group>.btn-group:not(:first-child), .btn-group>.btn:not(:first-child) {margin-left: 0px;}
-
 .btn-group, .btn-group-vertical {display: block;}
 
 .smenu .btn {
@@ -10,12 +9,14 @@ min-width: 19.4%;
 max-width: 19.4%;
 }
 
-btn-group { min-width: 19.4%; max-width: 19.4%; }
-
-card card-body
-btn-group {min-width: 100%;max-width: 100%; }
-
 .card-body {padding: 0.5rem;}
+
+.color1{ color: #fff; background-color: #99c9c0; border-color: #99c9c0; }
+.color1:hover{ color: #fff; background-color: #9cd6cb; border-color: #9cd6cb; }
+.color2{ color: #fff; background-color: #33456D; border-color: #33456D; }
+.color2:hover{ color: #fff; background-color: #485f94; border-color: #485f94; }
+.color3{ color: #fff; background-color: #969696; border-color: #969696; }
+.color3:hover{ color: #fff; background-color: #737373; border-color: #737373; }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 .smenu .btn {min-width: 24%;}
